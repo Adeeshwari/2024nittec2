@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int ascii_value;
+
+    char character;
+
+    scanf("%d", &ascii_value);
+
+
+    character = (char)ascii_value;
+
+    printf("%c\n", character);
+
+    return 0;
+
+}
