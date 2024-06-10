@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float num;
+    int integer_part;
+    int rounded_up;
+    int rounded_down;
+
+    scanf("%f", &num);
+
+    integer_part = (int)num;
+    rounded_up = (int)ceil(num);
+    rounded_down = (int)floor(num);
+
+    printf("%d\n", integer_part);
+    printf("%d\n", rounded_up);
+    printf("%d\n", rounded_down);
+
+    return 0;
+}
