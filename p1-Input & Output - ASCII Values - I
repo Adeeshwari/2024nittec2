@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    char ch;
+
+    // Reading a single character input
+    scanf("%c", &ch);
+
+    // Printing the ASCII value of the character
+    printf("%d\n", ch);
+
+    return 0;
+}
